@@ -1,0 +1,133 @@
+/* table, th, td {
+  border:1px solid black;
+} */
+hr {
+  width: 5%;
+  border-top:5px;
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+p {
+ margin-top:0;
+}
+
+.center {
+  text-align: center;
+}
+
+.tableCenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p {
+  font-family: "Papyrus", Fantasy;
+  color: blue;
+}
+
+.imgContainer {
+  background: url(../image/background-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.footer {
+  background: url(../image/background-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 22vh;
+}
+
+.first-text {
+  position: relative;
+  text-align: center;
+  font-size: 88px;
+  top: 25%;
+  font-family: Papyrus, fantasy;
+  color: #A52A2A;
+}
+
+.second-text {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  top:20%;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  color: #A52A2A;
+}
+
+.third-text {
+  font-size: 25px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  color: #A52A2A;
+}
+
+.forth-text {
+  text-align: center;
+  font-size: 35px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  color: #A52A2A;
+}
+
+.fifth-text {
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 1px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonContact {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background-color: #009578;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttonContact:hover {
+  background: #008168;
+}
+
+.buttonContact:active {
+  background: #006e58;
+}
+
+.button_text, .button_icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button_icon {
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.08);
+}
